@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;      
+    background-color: rgb(255, 255, 255);
+}
+
+
+    /*header*/
+.header{
+    background-color: rgb(69, 69, 69);
+    width: 100vw;
+    display: flex;
+    justify-content:  center;
+
+}
+
+.header h2{
+    background-color: rgb(69, 69, 69);
+    font-size: 3em;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    position: relative; left: 0.4em;
+}
+
+
+
+    /*nav*/
+.nav ul li a{
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative; left: 1em;
+
+
+}
+
+.nav ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    position: relative;top: 5px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+ /* main */
+.main{
+    display: flex;
+    justify-content: center;
+
+}
+.inputbox{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+}
+
+
+.main p {
+    color: rgb(255, 255, 255);
+    position: relative;top: 5em;left: 2em;
+    font-size: larger;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.main form h2{
+    color: rgb(45, 45, 45);
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative; bottom: 2em;left: 30em;
+    width: 50%;
+}
+
+.main form {
+    justify-content: center ;
+    position: relative;top: 5em;
+    color: black;
+    margin: 20px;
+    width: 50%;
+}
+
+.main form input{
+    color: black;
+    background-color: rgb(244, 243, 243);
+
+
+}
+
+.inputbox{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.main form label{
+    display: flex;
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}   
+label{
+    color: rgb(2, 2, 2);
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative; left: 20em;
+}
+
+input, textarea{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative; left: 18em;
+}
+
+textarea{
+    height: 100px;
+    background-color: rgb(244, 243, 243);
+}
+
+button{
+    background-color: rgb(69, 69, 69);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;   
+    width: 20%;
+    position: relative;top: 3em; right: 10em;
+    margin: 50px;
+}
+button:hover{
+    background-color: rgb(28, 28, 28);
+}
+
+.inputbox h2{
+    display: flex;
+    position: relative;
+    left: 90em;
+
+}
+
